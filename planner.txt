@@ -1,0 +1,12 @@
+dados que eu preciso pegar do usuário para fazer o cálculo do custo
+
+1 - Peso do rolo de barbante usado
+
+2 - Quantos barbantes foram usados
+
+3 - Peso usado na peça ou no jogo
+    valor pago / peso do rolo * peso usado * 3
+
+4 - valor pago em cada rolo de barbante
+
+pegar o PREÇO pago dividir pelo total do peso usado e depois multiplicar pelo peso usado na peça

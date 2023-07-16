@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return Cost</title>
+    <link href="{{ url_for('static', path='styles-cost.css') }}" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="main-title">
+            <h1>Seu custo:</h1>
+        </div>
+    </header>
+    <main class="main-div">
+        <table class="main-table">
+            <tr>
+                <th>Peso total informado:</th>
+                <td>{{ total_weight }}</td>
+            </tr>
+            <tr>
+                <th>Quantidade de rolos usados:</th>
+                <td>{{ quantity_used }}</td>
+            </tr>
+            <tr>
+                <th>Valor total pago:</th>
+                <td>{{ total_paid }}</td>
+            </tr>
+            <tr>
+                <th>Peso total usado na peça ou jogo:</th>
+                <td>{{ total_used_weight }}</td>
+            </tr>
+            <tr>
+                <th>Seu custo:</th>
+                <td>{{ cost }}</td>
+            </tr>
+            <tr>
+                <th>Preço de venda sugerido:</th>
+                <td>{{ sell_price }}</td>
+            </tr>
+        </table>
+        <div class="reboot-button-div">
+            <a href="http://localhost:8001"><button class="reboot-button"><img class="reboot-image" src="{{ url_for('static', path='assets/reboot_arrow.svg') }}" width="13" height="13">REFAZER</button></a>
+        </div>
+    </main>
+</body>
+</html>
