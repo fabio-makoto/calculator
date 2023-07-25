@@ -1,4 +1,4 @@
-class CostCalculator:
+class NewCostCalculator:
     def __init__(self, starting_weight: int, quantity_used: int, total_used_weight: int, paid_value: float):
         self.starting_weight = starting_weight
         self.quantity_used = quantity_used
@@ -19,8 +19,8 @@ class CostCalculator:
 
 
     def get_cost(self):
-        total_paid = CostCalculator.get_total_paid(self)
-        total_weight = CostCalculator.get_total_weight(self)
+        total_paid = NewCostCalculator.get_total_paid(self)
+        total_weight = NewCostCalculator.get_total_weight(self)
 
         cost = total_paid / total_weight * self.total_used_weight
 

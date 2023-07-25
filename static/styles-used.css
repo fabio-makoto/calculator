@@ -1,0 +1,16 @@
+.main-title {
+    text-align: center;
+    margin: 6% 0px 0px 0px;
+    text-shadow: 1px 1px 1px;
+    color: 	#1C1C1C;
+}
+
+.content-div {
+    width: 30%;
+    height: 100%;
+    border: 3px solid #a48fc6;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+    color: #1C1C1C;
+}
