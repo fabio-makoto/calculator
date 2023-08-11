@@ -43,16 +43,18 @@
                 <td>{{ profit }}</td>
             </tr>
             <tr>
-                <th>30% do lucro para reinvestir:</th>
+                <th>Valor para reinvestir:</th>
                 <td>{{ reinvest }}</td>
             </tr>
             <tr>
-                <th>70% do lucro para você:</th>
+                <th>Seu lucro:</th>
                 <td>{{ own_profit }}</td>
             </tr>
         </table>
-        <div class="reboot-button-div">
-            <a href="http://localhost:8001/home"><button class="reboot-button"><img class="reboot-image" src="{{ url_for('static', path='assets/reboot_arrow.svg') }}" width="13" height="13">REFAZER</button></a>
+        <div class="button-div">
+            <a href="http://localhost:8004/home"><button class="reboot-button"><img class="reboot-image" src="{{ url_for('static', path='assets/reboot_arrow.svg') }}" width="13" height="13">refazer</button></a>
+            <a href="http://localhost:8004/new/new_return_cost/shopee_profit"><button class="shopee-button"><img class="shopee-image" src="{{ url_for('static', path='assets/shopee_logo.svg') }}" width="13" height="13">shopee</button></a>
+            <a href="http://localhost:8004/new/new_return_cost/enjoei_profit"><button class="enjoei-button"><img class="enjoei-image" src="{{ url_for('static', path='assets/enjoei_logo.png') }}" width="13" height="13">enjoei</button></a>
         </div>
     </main>
 </body>

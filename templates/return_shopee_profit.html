@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="{{ url_for('static', path='/styles-return-shopee-profit.css') }}" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="main-title">
+            <h1>Seu Lucro:</h1>
+        </div>
+    </header>
+    <main class="main-div">
+        <table class="main-table">
+            <tr>
+                <th>Custo do produto:</th>
+                <td>{{ cost }}</td>
+            </tr>
+            <tr>
+                <th>Valor a ser vendido:</th>
+                <td>{{ sell_price }}</td>
+            </tr>
+            <tr>
+                <th>Valor a receber pela shopee:</th>
+                <td>{{ final_value }}</td>
+            </tr>
+            <tr>
+                <th>Lucro total bruto:</th>
+                <td>{{ total_final_profit }}</td>
+            </tr>
+            <tr>
+                <th>Valor para reinvestir:</th>
+                <td>{{ value_to_reinvest }}</td>
+            </tr>
+            <tr>
+                <th>Seu lucro:</th>
+                <td>{{ your_profit }}</td>
+            </tr>
+        </table>
+        <div class="button-div">
+            <a href="http://localhost:8004/home"><button class="reboot-button"><img class="reboot-image" src="{{ url_for('static', path='assets/reboot_arrow.svg') }}" width="13" height="13">refazer</button></a>
+        </div>
+    </main>
+</body>
+</html>

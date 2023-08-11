@@ -64,38 +64,3 @@ td {
 .reboot-image {
     margin: 0px 5px 0px 0px;
 }
-
-.shopee-button {
-    padding: 10px 10px 10px 10px;
-    font-weight: 900;
-    border: 2px solid #a48fc6;
-    border-radius: 15px;
-    margin: 0px 0px 4% 0px;
-    text-transform: uppercase;
-    color: #EE4D2D;
-}
-
-.shopee-button:hover {
-    background-color: #c3ade6;
-}
-
-.shopee-image {
-    margin: 0px 5px 0px 0px;
-}
-
-.enjoei-button {
-    padding: 10px 10px 10px 10px;
-    font-weight: 900;
-    border: 2px solid #a48fc6;
-    border-radius: 15px;
-    margin: 0px 0px 4% 0px;
-    text-transform: uppercase;
-}
-
-.enjoei-button:hover {
-    background-color: #c3ade6;
-}
-
-.enjoei-image {
-    margin: 0px 5px 0px 0px;
-}
